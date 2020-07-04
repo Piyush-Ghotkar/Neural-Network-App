@@ -22,7 +22,7 @@ app = Flask(__name__)
 
 # load model
 #model = pickle.load(open('../modelweights.pkl','rb'))
-model = load_model('../saved_model')
+model = load_model('saved_model')
     
 
 
